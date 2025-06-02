@@ -1,1 +1,30 @@
-<!DOCTYPE html><html><head><title>OC Pagos en Línea</title></head><body><h1>OC Pagos en Línea</h1><p>App Web lista.</p></body></html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>OC Pagos en Línea</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>OC Pagos en Línea</h1>
+  <form id="pagoForm">
+    <textarea id="entradaPagos" placeholder="Pegá los pagos aquí..." rows="6"></textarea><br/>
+    <button type="submit">Cargar Pagos</button>
+  </form>
+
+  <section id="resumen">
+    <h2>Resumen del Día</h2>
+    <div>Total cargado: <span id="total"></span></div>
+    <div>Pendientes: <span id="pendientes"></span></div>
+    <div>Realizados: <span id="realizados"></span></div>
+  </section>
+
+  <section id="listadoPagos">
+    <h2>Pagos</h2>
+    <ul id="pagosList"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
