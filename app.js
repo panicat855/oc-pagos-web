@@ -1,0 +1,1 @@
+console.log('OC Pagos en Línea - Funcionalidad JS');

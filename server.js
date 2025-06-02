@@ -1,0 +1,1 @@
+// Simulación de backend con Express (estructura)
