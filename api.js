@@ -1,0 +1,1 @@
+// Funciones para conexión con backend o mock data

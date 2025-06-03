@@ -1,0 +1,1 @@
+// App principal con rutas y contexto de usuario

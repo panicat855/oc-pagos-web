@@ -1,0 +1,1 @@
+// Panel con pagos, filtros y totales
