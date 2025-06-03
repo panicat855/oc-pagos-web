@@ -1,1 +1,2 @@
-// Contenido simulado de app.js
+// React app entry (demo)
+console.log('OC Pagos en línea');
